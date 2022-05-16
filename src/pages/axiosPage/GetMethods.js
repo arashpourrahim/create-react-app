@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const GetMethods = () => {
+const GetMethods = ({ getItems }) => {
   return (
-    <div>GetMethods</div>
-  )
-}
+    <div>
+      {getItems.id} : {getItems.title}
+    </div>
+  );
+};
 
-export default GetMethods
+export default GetMethods;

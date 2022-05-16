@@ -1,5 +1,5 @@
 .btn {
-  @apply text-base font-bold rounded-lg px-3 py-2;
+  @apply text-base font-bold rounded-lg px-3 py-2 text-white shadow-md;
 }
 
 .green {
@@ -16,4 +16,8 @@
 
 .red {
   @apply bg-red-500;
+}
+
+.black {
+  @apply bg-zinc-800;
 }
