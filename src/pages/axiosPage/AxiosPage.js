@@ -6,26 +6,46 @@ const AxiosPage = () => {
   const [put, setPut] = useState(false);
   const [deleteEl, setDeleteEl] = useState(false);
 
+  const getHandler = () => {
+    setGet(true);
+    console.log("get");
+  };
+
+  const postHandler = () => {
+    setPost(true);
+    console.log("post");
+  };
+
+  const putHandler = () => {
+    setPut(true);
+    console.log("put");
+  };
+
+  const deleteElHandler = () => {
+    setDeleteEl(true);
+    console.log("delete");
+  };
+
   return (
     <article className="p-4">
       <section className="flex flex-row justify-center">
         <div className="m-2">
-          <button className="btn green" onClick={() => setGet(true)}>
+          <button className="btn green" onClick={getHandler}>
             GET
           </button>
         </div>
         <div className="m-2">
-          <button className="btn yellow" onClick={() => setPost(true)}>
+          <button className="btn yellow" onClick={postHandler}>
             POST
           </button>
         </div>
         <div className="m-2">
-          <button className="btn blue" onClick={() => setPut(true)}>
+          <button className="btn blue" onClick={putHandler}>
             PUT/PATCH
           </button>
         </div>
         <div className="m-2">
-          <button className="btn red" onClick={() => setDeleteEl(true)}>
+          <button className="btn red" onClick={deleteElHandler}>
             DELETE
           </button>
         </div>
