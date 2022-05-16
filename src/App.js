@@ -1,7 +1,12 @@
 import React from "react";
+import AxiosPage from "./pages/axiosPage/AxiosPage";
 
 const App = () => {
-  return <div>Hello World!</div>;
+  return (
+    <div>
+      <AxiosPage />
+    </div>
+  );
 };
 
 export default App;

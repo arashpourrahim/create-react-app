@@ -1,0 +1,19 @@
+.btn {
+  @apply text-base font-bold rounded-lg px-3 py-2;
+}
+
+.green {
+  @apply bg-green-500;
+}
+
+.yellow {
+  @apply bg-yellow-500;
+}
+
+.blue {
+  @apply bg-blue-500;
+}
+
+.red {
+  @apply bg-red-500;
+}
