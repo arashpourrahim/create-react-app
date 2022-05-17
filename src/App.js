@@ -1,10 +1,10 @@
 import React from "react";
-import AxiosPage from "./pages/axiosPage/AxiosPage";
+import Axios from "./components/FetchData/axios";
 
 const App = () => {
   return (
     <div>
-      <AxiosPage />
+      <Axios />
     </div>
   );
 };
