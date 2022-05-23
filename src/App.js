@@ -1,10 +1,10 @@
 import React from "react";
-import Axios from "./components/FetchData/axios";
+import LoadData from "./components/LoadData";
 
 const App = () => {
   return (
     <div>
-      <Axios />
+      <LoadData />
     </div>
   );
 };
