@@ -1,10 +1,10 @@
 import React from "react";
-import LoadData from "./components/LoadData";
+import ImageUpload from "./components/ImageUpload/ImageUpload";
 
 const App = () => {
   return (
     <div>
-      <LoadData />
+      <ImageUpload />
     </div>
   );
 };
